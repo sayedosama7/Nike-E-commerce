@@ -1,0 +1,31 @@
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons i{
+    margin: 10px;
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid  #606e60;
+    border-radius: 10px;
+    color:  #606e60;
+}
+.footer h1{
+    text-align: center;
+    font-family: "Merienda One",cursive;
+    margin-top: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #f3dede;
+}
+.footer span {
+    color: #5d0137;
+    font-family: "Merienda One",cursive;
+    text-shadow: 2px 2px 2px #f3dede;
+}
+.footer h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer{
+    border-top: 1px solid #000;
+}

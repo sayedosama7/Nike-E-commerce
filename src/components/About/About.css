@@ -1,0 +1,199 @@
+/* .about img{
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+} */
+.about h1{
+    padding-top: 300px;
+    margin-left: 180px;
+    font-family: "Rowdies",cursive;
+    color: #000;
+    text-shadow: 4px 4px 1px #1e80d4;
+    font-weight: bold;
+
+}
+.about h2{
+    margin-left: 90px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #1b4d7c;
+    font-family: "Rowdies",cursive;
+}
+.about span{
+margin-left: 60px;
+}
+.about{
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("./nike1b.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+}
+.about2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Rowdies",cursive;
+}
+.about2 h1{
+    color: #000;
+    text-shadow: 4px 4px 1px #1e80d4;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.about2 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+                     /* media querry */
+@media (max-width: 1200px){
+.about{
+height: 70vh;
+}
+.about h1{
+position: relative;
+top: -150px;
+margin-left: 80px;
+font-size: 25px;
+}
+.about h2{
+position: relative;
+top: -150px;
+margin-left: 65px;
+font-size: 10px;
+}
+.about span{
+margin-left: 30px;
+}
+}
+@media (max-width: 900px){
+.about{
+    height: 70vh;
+}
+.about h1{
+    position: relative;
+    top: -150px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+.about h2{
+    position: relative;
+    top: -150px;
+    margin-left: 65px;
+    font-size: 10px;
+}
+.about span{
+    margin-left: 30px;
+}
+.about2 p{
+    font-size: 12px;
+}
+}
+@media (max-width: 700px){
+    .about{
+        height: 60vh;
+    }
+    .about h1{
+        position: relative;
+        top: -150px;
+        margin-left: 70px;
+        font-size: 18px;
+    }
+    .about h2{
+        position: relative;
+        top: -150px;
+        margin-left: 30px;
+        font-size: 9px;
+    }
+    .about span{
+        margin-left: 25px;
+    }
+    .about2 p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 600px){
+    .about{
+        height: 50vh;
+    }
+    .about h1{
+        position: relative;
+        top: -180px;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .about h2{
+        position: relative;
+        top: -180px;
+        margin-left: 40px;
+        font-size: 8px;
+    }
+    .about span{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+        height: 45vh;
+    }
+    .about h1{
+        position: relative;
+        top: -180px;
+        margin-left: 45px;
+        font-size: 13px;
+    }
+    .about h2{
+        position: relative;
+        top: -180px;
+        margin-left: 10px;
+        font-size: 7px;
+    }
+    .about span{
+        margin-left: 23px;
+    }
+}
+@media (max-width: 400px){
+    .about{
+        height: 30vh;
+    }
+    .about h1{
+        position: relative;
+        top: -230px;
+        margin-left: 40px;
+        font-size: 10px;
+    }
+    .about h2{
+        position: relative;
+        top: -230px;
+        margin-left: 10px;
+        font-size: 5px;
+    }
+    .about span{
+        margin-left: 15px;
+    }
+}
+@media (max-width: 300px){
+    .about{
+        height: 30vh;
+    }
+    .about h1{
+        position: relative;
+        top: -230px;
+        margin-left: 35px;
+        font-size: 9px;
+    }
+    .about h2{
+        position: relative;
+        top: -230px;
+        margin-left: 8px;
+        font-size: 4px;
+    }
+    .about span{
+        margin-left: 12px;
+    }
+}
